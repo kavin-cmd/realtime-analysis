@@ -17,7 +17,7 @@ def prepare_data(df, target_column='close'):
     return X_train, X_test, y_train, y_test
 
 # Fetch stock data
-api_key = 'OHYFACJD1WUOBAX6'
+api_key = 'YOUR_API_KEY'
 symbol = 'AAPL'
 df = fetch_stock_data(api_key, symbol)
 

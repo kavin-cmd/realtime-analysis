@@ -24,6 +24,6 @@ def main(api_key, symbol):
     train_model(model, X_train, y_train)
 
 if __name__ == "__main__":
-    api_key = 'OHYFACJD1WUOBAX6'
+    api_key = 'YOUR_API_KEY'
     symbol = 'AAPL'
     main(api_key, symbol)
